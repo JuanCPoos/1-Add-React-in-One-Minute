@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add React in one minute</title>
+  </head>
+  <body>
+    <h2>Add React in one minute</h2>
+    <p>En esta página veremos como usar y agregar React</p>
+    <p>React is loaded as a script tag</p>
+
+    <!-- Etiqueta div vacía para insertar un componente React-->
+    <div id="like_button_container"></div>
+
+    <!--Ahora cargaremos React-->
+    <!---->
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Cargamos el componente React-->
+    <script src="like_button.js"></script>
+  </body>
+</html>
